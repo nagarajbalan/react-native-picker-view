@@ -36,6 +36,7 @@ public class RNNumberPickerManager extends SimpleViewManager<RNNumberPicker> {
 
         view.setMinValue(0);
         view.setMaxValue(displayValues.length - 1);
+        view.setWrapSelectorWheel(false);
         view.setDisplayedValues(displayValues);
     }
 
